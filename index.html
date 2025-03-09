@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <img src="assets/Recipe Atlas logo.svg" alt="logo" />
+        </div>
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">Categories</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <div class="cta">
+            <a href="#">Log In</a>
+            <button class="button">Register</button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-section">
+        <div class="hero-text">
+          <h1>
+            Unlock Endless
+            <div class="recipe">Recipes</div>
+            for Every Meal
+          </h1>
+          <p>
+            From comforting classics to bold new flavors, explore an
+            ever-growing collection of recipes designed to make cooking
+            effortless and fun
+          </p>
+        </div>
+
+        <form class="form">
+          <input
+            type="text"
+            placeholder="Search for a recipe..."
+            name="search"
+          />
+          <div class="search-icon-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </form>
+      </div>
+      <div class="first-section">
+        <h1>Popular Recipes Of The Week</h1>
+        <div id="recipeContainer" class="recipe-container">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
