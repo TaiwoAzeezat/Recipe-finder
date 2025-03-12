@@ -41,6 +41,7 @@
   align-items: center;
   column-gap: 4rem;
   cursor: pointer;
+  position: static;
 }
 #navMenu a {
   text-decoration: none;
@@ -55,8 +56,6 @@
 
 #menuToggle {
   display: none;
-  font-size: 24px;
-  cursor: pointer;
 }
 .cta {
   width: fit-content;
@@ -319,7 +318,7 @@ ul a {
   font-weight: 400;
 }
 ul :hover {
-  color: #ffa07a;
+  color: #ffc107;
 }
 .footer-contact {
   width: fit-content;
@@ -379,6 +378,7 @@ ul :hover {
 
   #menuToggle i {
     color: white;
+    font-size: 1.3rem;
   }
 
   #navMenu {
@@ -497,7 +497,7 @@ ul :hover {
   .footer-about p {
     font-size: 0.85rem;
     font-weight: 400;
-    color: #fffafa;
+    color: #97979f;
     flex-wrap: nowrap;
     max-width: 22rem;
   }
@@ -518,7 +518,7 @@ ul :hover {
   }
   ul a {
     text-decoration: none;
-    color: #fffafa;
+    color: #97979f;
     font-size: 0.85rem;
     font-weight: 400;
   }
@@ -633,6 +633,15 @@ ul :hover {
     height: auto;
     transform: scale(1.2);
   }
+  .cta {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+  }
   .hero-text {
     width: fit-content;
     height: auto;
@@ -661,14 +670,29 @@ ul :hover {
 
   input {
     width: 12rem;
-    padding: 0.8rem 1rem;
+    padding: 0.88rem 1rem;
     border-top-left-radius: 10rem;
     border-bottom-left-radius: 10rem;
     border: 0.05rem solid rgba(214, 25, 25, 0.125);
     background-color: #fffafa;
     color: #0f0f0f;
-    font-size: 1rem;
+    font-size: 0.88rem;
     outline: none;
+  }
+
+  .search-icon-container {
+    width: fit-content;
+    height: auto;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(#ffc107, #ffa07a);
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    border: 0.05rem solid rgba(255, 255, 255, 0.125);
+    cursor: pointer;
+    color: white;
+  }
+  .search-icon-container i {
+    font-size: 0.9rem;
   }
   .first-section {
     width: 100%;
@@ -677,7 +701,7 @@ ul :hover {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    padding: 3rem;
+    padding: 2rem;
     background-color: #fffafa;
     row-gap: 2rem;
   }
