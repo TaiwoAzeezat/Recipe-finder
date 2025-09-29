@@ -121,16 +121,17 @@
 }
 .hero-text h1 {
   width: fit-content;
-  max-width: 620px;
-  font-size: 3.2rem;
+  max-width: 1200px;
+  font-size: 5rem;
   display: inline;
   font-weight: 600;
   color: #fff;
+  line-height: 6rem;
 }
 .hero-text p {
   width: fit-content;
   height: auto;
-  max-width: 600px;
+  max-width: 800px;
   font-family: "Inter", sans-serif;
   line-height: 1.4rem;
   color: #fff;
@@ -421,8 +422,8 @@ ul :hover {
   }
   .hero-text h1 {
     width: fit-content;
-    max-width: 560px;
-    font-size: 2.8rem;
+    max-width: 760px;
+    font-size: 4rem;
     display: inline;
     font-weight: 600;
     color: #fff;
@@ -430,7 +431,7 @@ ul :hover {
   .hero-text p {
     width: fit-content;
     height: auto;
-    max-width: 520px;
+    max-width: 650px;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     line-height: 1.4rem;
@@ -469,7 +470,7 @@ ul :hover {
     border-radius: 0.4rem;
     border: 0.02rem solid #0f0f0f22;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.055);
-    width: 25rem;
+    width: 22rem;
     height: auto;
     display: flex;
     flex-direction: column;
